@@ -1,20 +1,16 @@
 body{
-    color:#000;
-    font-family: "Monserrat"
+    /* color:#000; */
+    font-family: "Montserrat"
 }
 
 #title {
     background-color: #ff4b68;
+    color: white;
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 
-}
-
-.dog-img {
-    transform: rotate(15deg);
-    width: 60%;
 }
 
 h1 {
@@ -23,9 +19,24 @@ h1 {
     line-height: 1.5;    
 }
 
+h2 {
+    font-family: "Montserrat-Bold";
+    font-size: 3rem;
+    line-height: 1.5;    
+}
+
+
+h3 {
+    color:#000;
+    margin:5% auto;
+    font-family: "Monserrat-Black";
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
 /* Navbar Style */
 .navbar {
-        padding: 0 0 4.5rem;
+    padding: 0 0 4.5rem;
 }
 
 .navbar-brand {
@@ -48,19 +59,18 @@ h1 {
     margin: 5% 3% 5% 0;
 }
 
-/* Features */
-#features {
-    background-color: #ff4b;
+
+/* Title Image */
+
+.dog-img {
+    /* transform: rotate(15deg); */
+    width: 30%;
+    position: absolute;
+    /* right: 15%; */
 }
 
 
-h3 {
-    color:#000;
-    margin:5% auto;
-    font-family: "Monserrat-Black";
-    font-size: 1.5rem;
-    font-weight: bold;
-}
+/* Feature Section */
 
 .feature-txt {
     color: grey;
@@ -70,6 +80,9 @@ h3 {
 .feat-sec{
     padding: 7% 15%;
     text-align: center;
+    background-color: white;
+    position:relative;
+    /* z-index: 1; We do not need this z-index becuase both of them have positions and the feature section comes after the image */
 }
 
 /* Font-Awesome */
@@ -88,6 +101,7 @@ h3 {
 
     background-color:#ff4b68;
     text-align: center;
+    color: white;
 }
 
 .testimonial-image {
@@ -98,4 +112,14 @@ h3 {
 
 .carousel-item{
         padding: 7% 15%;
+}
+
+/* Pricing Section */
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-col {
+    padding: 3% 2%;
 }

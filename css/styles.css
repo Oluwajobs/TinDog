@@ -1,0 +1,101 @@
+body{
+    color:#000;
+    font-family: "Monserrat"
+}
+
+#title {
+    background-color: #ff4b68;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+
+}
+
+.dog-img {
+    transform: rotate(15deg);
+    width: 60%;
+}
+
+h1 {
+    font-family: "Montserrat-Black";
+    font-size: 3rem;
+    line-height: 1.5;    
+}
+
+/* Navbar Style */
+.navbar {
+        padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-family: "Monserrat-Light";    
+    font-size: 1.2rem
+}
+
+/* Download Buttons */
+.download-btn {
+    margin: 5% 3% 5% 0;
+}
+
+/* Features */
+#features {
+    background-color: #ff4b;
+}
+
+
+h3 {
+    color:#000;
+    margin:5% auto;
+    font-family: "Monserrat-Black";
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.feature-txt {
+    color: grey;
+    font-family: "Monserrat-Light";
+}
+
+.feat-sec{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+/* Font-Awesome */
+.fa-solid {
+    color:#ef8172;
+    text-align: center;
+}
+
+.fa-solid:hover{
+    color: #ff4b68;
+    font-size: 120%;
+}
+
+/* Testimonials Section */
+#testimonials {
+
+    background-color:#ff4b68;
+    text-align: center;
+}
+
+.testimonial-image {
+    width: 10%;
+    margin:20px;
+    border-radius: 100%;
+}
+
+.carousel-item{
+        padding: 7% 15%;
+}

@@ -1,37 +1,51 @@
 body{
     /* color:#000; */
-    font-family: "Montserrat"
+    font-family: "Montserrat";
+    text-align: center;
 }
 
-#title {
+p {
+    color: 8f8f8f;
+}
+
+.container-fluid {
+    padding: 7% 15%;   
+}
+
+/* Headings */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat-Bold";
+}
+
+.big-heading {
+    font-family: "Montserrat-Black";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+/* Sections */
+.colored-section {
     background-color: #ff4b68;
     color: white;
 }
 
-.container-fluid {
+.white-section {
+    background-color: white;
+    
+}
+
+/* Title Section */
+#title .container-fluid{
     padding: 3% 15% 7%;
-
-}
-
-h1 {
-    font-family: "Montserrat-Black";
-    font-size: 3rem;
-    line-height: 1.5;    
-}
-
-h2 {
-    font-family: "Montserrat-Bold";
-    font-size: 3rem;
-    line-height: 1.5;    
-}
-
-
-h3 {
-    color:#000;
-    margin:5% auto;
-    font-family: "Monserrat-Black";
-    font-size: 1.5rem;
-    font-weight: bold;
+    text-align: left;
+    
 }
 
 /* Navbar Style */
@@ -64,9 +78,9 @@ h3 {
 
 .dog-img {
     /* transform: rotate(15deg); */
-    width: 30%;
+    /* width: 20%; */
     position: absolute;
-    /* right: 15%; */
+    right: 15%;
 }
 
 
@@ -77,10 +91,13 @@ h3 {
     font-family: "Monserrat-Light";
 }
 
+.feature-title {
+    margin:5% auto;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
 .feat-sec{
-    padding: 7% 15%;
-    text-align: center;
-    background-color: white;
     position:relative;
     /* z-index: 1; We do not need this z-index becuase both of them have positions and the feature section comes after the image */
 }
@@ -98,10 +115,13 @@ h3 {
 
 /* Testimonials Section */
 #testimonials {
+    position: relative;
+    background-color:#ef8172;    
+}
 
-    background-color:#ff4b68;
-    text-align: center;
-    color: white;
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5; 
 }
 
 .testimonial-image {
@@ -110,9 +130,6 @@ h3 {
     border-radius: 100%;
 }
 
-.carousel-item{
-        padding: 7% 15%;
-}
 
 /* Pricing Section */
 #pricing {
@@ -120,6 +137,51 @@ h3 {
     text-align: center;
 }
 
+.pricing-text {
+    font-size: 3rem;
+    line-height: 1.5; 
+}
+
 .pricing-col {
     padding: 3% 2%;
+}
+
+@media (max-width: 1200px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .dog-img{
+        position: static;
+    }
+    
+}
+
+
+.call-act {
+    font-family: "Monteserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Footer Section */
+
+#footer {
+    margin: 50px auto;
+}
+
+.footer-icon {
+    padding: 2% 2%;
+    color:#000;
+}
+
+#press {
+    position: relative;
+    margin: auto 100px;
+}
+
+.press-icon {
+    width: 10%;
+    padding: auto 100px;
 }
